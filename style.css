@@ -1,0 +1,163 @@
+.heading {
+    text-align: center;
+}
+
+.btn-group.main{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.btn-group.main{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+
+}
+
+.btn.btn-success.col-12.mx-auto{
+    margin: 5px;
+}
+.btn.btn-warning.col-12.mx-auto{
+    margin: 5px;
+}
+.btn.btn-danger.col-12.mx-auto{
+    margin: 5px;
+}
+
+.date {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.card img{
+    max-block-size: 15rem;
+}
+
+.card-title {
+    display:inline-block;
+}
+.card-title {
+    display:inline-block;
+}
+
+.cardBtn {
+    float: right;
+    margin-right: 5px;
+}
+
+.card-body {
+    padding: 0;
+    margin: 10px 3px 0px 3px;
+    
+}
+
+.newCard {
+    border: none;
+}
+
+.listCard{
+    margin-bottom: 5px;
+}
+
+.list-group-item{
+    border-color: blue;
+    border-radius: 20%;
+}
+
+.status {
+    margin-bottom: 20px;
+}
+
+.modal-header {
+    background-image: url("./img/heading.jpeg") ;
+}
+
+.card-text {
+    padding: 0px 0px 5px 15px;
+}
+
+.done-button {
+    color: green;
+    background-color: white;
+    border-color: #6cc26c;
+    border-radius: 3px;
+    padding: 4px 6px 6px 6px;
+    border-width: thin;
+    font-size: 13px;
+}
+
+.done-button:hover {
+    background-color: #6cc26c;
+    color: white;
+}
+
+.delete-button {
+    color: #ff0000;
+    background-color: white;
+    border-color: red;
+    border-radius: 3px;
+    padding: 4px 6px 6px 6px;
+    border-width: thin;
+}
+
+.delete-button:hover {
+    background-color:red;
+    color: white;
+}
+
+.edit-button {
+    color: #EEB740;
+    background-color: white;
+    border-color: #EEB740;
+    border-radius: 3px;
+    padding: 4px 6px 6px 6px;
+    border-width: thin;
+}
+
+.edit-button:hover {
+    background-color:#EEB740;
+    color: white;
+}
+
+.toggleButton .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #f8637c;
+    border-radius: 10px;
+}
+
+/* @media (max-width: 500px) { 
+     .card-title {
+    display:inline-block;
+    white-space: nowrap; 
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    }
+    .card-title:hover {
+        max-width: 100px;
+        overflow: visible;
+    } 
+ 
+     .toggleButton {
+    display: flex;
+    }
+
+    .cardBtn {
+        display: none;
+        width: 100%;
+    }
+
+    .cardBtn.active {
+        display: flex;
+    }
+} */
+
+
