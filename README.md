@@ -30,3 +30,5 @@ Demonstrate non-technical skills developed during the Junior Web Developer progr
 - Color code for each status
 
 - Team members can be selected 
+
+- Toggle button to make a menu dropdown when screen go smaller

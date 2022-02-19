@@ -126,7 +126,8 @@
     color: white;
 }
 
-.toggleButton .bar {
+/* below is for toogle button that will work on in the future */
+/* .toggleButton .bar {
     height: 3px;
     width: 100%;
     background-color: #f8637c;
@@ -149,7 +150,7 @@
     width: 100%;
     background-color: #f8637c;
     border-radius: 10px;
-}
+} */
 
  /* @media (max-width: 500px) { 
     .toggleButton {
