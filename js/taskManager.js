@@ -15,6 +15,12 @@ const createTaskHtml = (id, name, description, assignedTo, dueDate, status) => {
         <button type="button" class="delete-button  btn-sm material-icons">delete</button>
         <button type="button" class="done-button ${hide(status)} material-icons">done</button>
       </div>
+
+      <a href="#" class="toggleButton">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
     </div>
 
     <div class="collapse" id="${id}">
@@ -174,3 +180,10 @@ function hide(status){
     return 'visible'
   }
 }
+
+const toggleButton =  document.getElementsByClassName('toggleButton')[0];
+const cardBtn = document.getElementsByClassName('cardBtn')[0];
+
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+})

@@ -176,6 +176,21 @@
     </div>
 </div>
 
+<!-- Modal hidden button-->
+<div class="modal fade" id="hideButton" tabindex="-1" role="dialog" aria-labelledby="AddTaskModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class = "cardBtn">
+                <!-- Button trigger Edit modal -->
+                <button type="button" class="edit-button btn-sm material-icons" data-toggle="modal" data-target="#EditTask">edit</button> 
+                <button type="button" class="delete-button  btn-sm material-icons">delete</button>
+                <button type="button" class="done-button ${hide(status)} material-icons">done</button>
+            </div>
+        </div>       
+    </div>      
+</div> 
+
+
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

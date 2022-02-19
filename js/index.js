@@ -1,4 +1,3 @@
-
 //Initialise the TaskManager class from taskManager.js
 const taskManager = new TaskManager();
 
