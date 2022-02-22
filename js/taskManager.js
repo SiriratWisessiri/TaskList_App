@@ -19,7 +19,7 @@ const createTaskHtml = (id, name, description, assignedTo, dueDate, status) => {
 
     <div class="collapse" id="${id}">
       <p class="card-text">Description: ${description}</p>
-      <p class="card-text">Assigne to: ${assignedTo}</p>
+      <p class="card-text">Assigned to: ${assignedTo}</p>
       <p class="card-text">Due date: ${dueDate}</p>
       <p class="card-text"><b>Status: ${status}</b></p>
     </div>
