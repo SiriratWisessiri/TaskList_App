@@ -35,7 +35,7 @@ function submitForm() {
         taskManager.save();
         taskManager.render();
         console.log(taskManager);
-        alert('You task is submitted');
+        alert('Your task is submitted');
         document.querySelector("form").reset();
     }
 }
