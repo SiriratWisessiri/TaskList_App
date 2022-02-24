@@ -1,11 +1,11 @@
 # Task To do application
-
+This project is part of the Web Development intesive course with Generation Australia.
 
 # Project Description
 
 Create a Task Planner web app from scratch.
 Demonstrate the technical skills of HTML, CSS, Bootstrap and JavaScript.
-Demonstrate non-technical skills developed during the Junior Web Developer program.
+Demonstrate non-technical skills developed during the Web Developer program.
 
 
 ## Authors
