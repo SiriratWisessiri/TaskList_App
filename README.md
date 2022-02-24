@@ -11,6 +11,7 @@ Demonstrate non-technical skills developed during the Junior Web Developer progr
 ## Authors
 
 - [Siri Wisessiri](https://github.com/SiriratWisessiri)
+- Cally Sobolewski
 
 
 ## Features
